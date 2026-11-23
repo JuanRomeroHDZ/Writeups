@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "88fdd6055ac13041",
+    "id": "ab460a3b215f65d3",
     "type": "split",
     "children": [
       {
-        "id": "c13792061982df45",
+        "id": "afab5f3752a4cdb9",
         "type": "tabs",
         "children": [
           {
-            "id": "4af6f29d88d45430",
+            "id": "8b6142fde20379c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f25211ce69a5028b",
+    "id": "60cd1f93078e2bea",
     "type": "split",
     "children": [
       {
-        "id": "cc247c2073b85511",
+        "id": "1d9812a9ddc1600f",
         "type": "tabs",
         "children": [
           {
-            "id": "c1716428b109c1f1",
+            "id": "10fc9be0ebe1baec",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "b1978ff6b9252a60",
+            "id": "eb1021d23a89aa39",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +67,7 @@
             }
           },
           {
-            "id": "6eaaafc1266a3e30",
+            "id": "1b61dcc3b719a565",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -83,23 +83,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424.6015625
+    "width": 300
   },
   "right": {
-    "id": "989a43feac42a08b",
+    "id": "0eacd3f94040c26e",
     "type": "split",
     "children": [
       {
-        "id": "437f3f57b6632c9a",
+        "id": "7ad77df734fee565",
         "type": "tabs",
         "children": [
           {
-            "id": "43034d1e3ee642e7",
+            "id": "32ead07f7068a153",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Easy/TwoMillion/README.md",
+                "file": "Easy/Busqueda/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,12 +113,12 @@
             }
           },
           {
-            "id": "91596f1f06de8929",
+            "id": "06266c9c64f9bd2c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Easy/TwoMillion/README.md",
+                "file": "Easy/Busqueda/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -127,7 +127,7 @@
             }
           },
           {
-            "id": "739d305592252d8a",
+            "id": "39a44a3bb5cdc954",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,7 +142,7 @@
             }
           },
           {
-            "id": "5ab6eed7e0096182",
+            "id": "eac7865eec90986f",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -156,12 +156,12 @@
             }
           },
           {
-            "id": "90b63ff82f1999e0",
+            "id": "c5eb3aab683b65b8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Easy/TwoMillion/README.md",
+                "file": "Easy/Busqueda/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,16 +188,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "c1716428b109c1f1",
+  "active": "8b6142fde20379c8",
   "lastOpenFiles": [
     "Easy/Busqueda/Images/Pasted image 20261122232702.png",
-    "Pasted image 20261122232641.png",
     "Easy/Busqueda/README.md",
-    "Easy/Busqueda/Images/Pasted image 20261122231321.png",
-    "Easy/Busqueda/Images/Pasted image 20261122232451.png",
+    "Easy/Busqueda/Images/Pasted image 20261123012726.png",
+    "Easy/Busqueda/Images/Pasted image 20261123013003.png",
+    "Pasted image 20261123012723.png",
+    "Pasted image 20261123012726.png",
     "Easy/TwoMillion/README.md",
-    "Easy/TwoMillion/Images",
-    "README.md",
-    "Easy/TwoMillion"
+    "README.md"
   ]
 }

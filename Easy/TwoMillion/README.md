@@ -24,18 +24,6 @@ status: finalizado
       - [15. \[Alternative Priv Esc\] What is the CVE ID for the 2023 buffer overflow vulnerability in the GNU C dynamic loader?](#lessso-section-15-alternative-priv-esc-what-is-the-cve-id-for-the-2023-buffer-o-18)
       - [16. \[Alternative Priv Esc\] With a shell as admin or www-data, find a POC for Looney Tunables. What is the name of the environment variable that triggers the buffer overflow? After answering this question, run the POC and get a shell as root.](#lessso-section-16-alternative-priv-esc-with-a-shell-as-admin-or-www-data-find-a-19)
 
-## Índice de figuras e imágenes
-
-- [Figura 1 · Edición: /etc/hosts](#lessso-figure-1)
-- [Figura 2 · Click derecho -\> Inspect](#lessso-figure-2)
-- [Figura 3 · Network](#lessso-figure-3)
-- [Figura 4 · Panel HTB](#lessso-figure-4)
-- [Figura 5 · Access -\> Connection Pack](#lessso-figure-5)
-- [Figura 6 · Connection Pack endpoint](#lessso-figure-6)
-- [Figura 7 · Terminal 1](#lessso-figure-7)
-- [Figura 8 · Terminal 2](#lessso-figure-8)
-- [Figura 9 · ls -la](#lessso-figure-9)
-
 ## Índice de tablas
 
 - [Tabla 1 · Port · State · Service](#lessso-table-1)
@@ -92,10 +80,6 @@ A esa ruta le pondremos en un apartado lo siguiente:
 
 
 Con esto podemos regresar al navegador y recargar, el resultado obtenido fue:
-<a id="lessso-figure-1"></a>
-
-![Edición: /etc/hosts](assets/image.webp)
-
 
 Es una página completamente accesible.
 Una vez estando ahí iremos viendo que nos pide HTB para ver como avanzar, aunque para mi es la intercepción de algunos paquetes.
@@ -138,16 +122,8 @@ Click derecho -> Inspect
 
 
 Como resultado obtenemos un panel web como el que se ve a continuación:
-<a id="lessso-figure-2"></a>
-
-![Click derecho -> Inspect](assets/image.webp)
-
 
 Podemos observar en el panel que hay una flecha que apunta a *Network*, lo que haremos es ir ahí y nos aparecerá el siguiente panel:
-<a id="lessso-figure-3"></a>
-
-![Network](assets/image.webp)
-
 
 Como podemos observar hay dos recursos, para que aparezcan hay que darle click a recargar página, dónde apunta la flecha, ahí mismo encontramos el recurso que nos dará la respuesta:
 ```Resource
@@ -283,23 +259,11 @@ Desencriptaremos ese resultado utilizando la página: [Base 64 Decode and Encode
 
 Utilizaremos ese código para ingresar, nos registraremos y llenaremos con la  información que necesita, puede ser inventado, no hay necesidad de ingresar datos verdaderos. Y al final nos logearemos con la información que llenamos.
 Este es el panel al que entramos:
-<a id="lessso-figure-4"></a>
-
-![Panel HTB](assets/image.webp)
-
 
 Luego buscaremos el botón *Connection Pack*, una vez que lo encontremos utilizaremos BurpSuit para ver a que endpoint apunta.
 El apartado de  *Connection Pack* se encuentra en la sección de *Access* que aparece del lado izquierdo y se ve:
-<a id="lessso-figure-5"></a>
-
-![Access -> Connection Pack](assets/image.webp)
-
 
 Para ver el endpoint podemos simplemente pasar el mouse por encima del botón, utilizar Burp Suit, utilizar herramientas más avanzadas del navegador, etc. Lo más sencillo es pasar el mouse por el navegador y eso haré, entonces el resultado fue:
-<a id="lessso-figure-6"></a>
-
-![Connection Pack endpoint ](assets/image.webp)
-
 
 La respuesta a la pregunta es:
 ```Answer
@@ -600,14 +564,7 @@ nc -lvnp 6969
 
 Tenemos que correr primero la Terminal 2, luego la Terminal 1, una vez que lo hagamos en ese orden obtendremos lo siguiente:
 - Terminal #1:
-<a id="lessso-figure-7"></a>
-
-![Terminal 1](assets/image.webp)
 - Terminal #2: Acá corrí *whoami* para confirmar la salida de cuando probé si aceptaba command injection;
-<a id="lessso-figure-8"></a>
-
-![Terminal 2](assets/image.webp)
-
 
 Recordando la información de hace rato, nos habló de una variable de entorno, por la cual realizaré:
 ```bash
@@ -616,10 +573,6 @@ ls -la
 
 
 El resultado de esa acción fue:
-<a id="lessso-figure-9"></a>
-
-![ls -la](assets/image.webp)
-
 
 Ahora haré:
 ```bash
