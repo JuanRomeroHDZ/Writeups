@@ -15,8 +15,7 @@
               "state": {
                 "file": "Easy/Busqueda/README.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": false
+                "source": false
               },
               "icon": "lucide-file",
               "title": "README"
@@ -84,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 424.6015625
   },
   "right": {
     "id": "989a43feac42a08b",
@@ -191,8 +190,9 @@
   },
   "active": "4af6f29d88d45430",
   "lastOpenFiles": [
-    "Easy/Busqueda/Images/Pasted image 20261122232451.png",
     "Easy/Busqueda/Images/Pasted image 20261122231321.png",
+    "Easy/Busqueda/README.md",
+    "Easy/Busqueda/Images/Pasted image 20261122232451.png",
     "Easy/TwoMillion/README.md",
     "Easy/TwoMillion/Images",
     "README.md",

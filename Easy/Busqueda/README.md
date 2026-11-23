@@ -78,6 +78,3 @@ Como podemos observar, simplemente salen dos rutas, por lo cual pasaremos a ingr
 >[!INFO] Resultado obtenido
 >![[Pasted image 20261122231321.png]]
 
-
-
-![[Pasted image 20261122232451.png]]
