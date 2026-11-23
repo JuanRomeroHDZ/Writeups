@@ -18,7 +18,8 @@ Busqueda is an Easy Difficulty Linux machine that involves exploiting a command 
 
 
 ## Details
-**IP:**
+**IP:** N/A
+**Ports:** 22, 80
 
 
 ## Information Gathering
@@ -32,8 +33,8 @@ rustscan -a [TARGET]
 > **Información** — Resultado obtenido
 >```bash
 >PORT   STATE SERVICE REASON
-22/tcp open  ssh     syn-ack
-80/tcp open  http    syn-ack
+>22/tcp open  ssh     syn-ack
+>80/tcp open  http    syn-ack
 >```
 
 
@@ -43,7 +44,7 @@ curl [TARGET] | grep http
 ```
 > **Información** — Resultado obtenido
 >```bash
-><p>The document has moved <a href="http://searcher.htb/">here</a>.</p>
+><p>The document has moved <a href="http://searcher.htb/">here</a></p>
 >```
 
 
