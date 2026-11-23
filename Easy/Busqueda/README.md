@@ -27,6 +27,8 @@ Para saber que puertos se encuentran disponibles, utilizaremos la herramienta de
 ```bash
 rustscan -a [TARGET]
 ```
+
+
 > **Información** — Resultado obtenido
 >```bash
 >PORT   STATE SERVICE REASON
