@@ -1,6 +1,6 @@
 {
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "showUnsupportedFiles": false,
-  "alwaysUpdateLinks": false
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true
 }
