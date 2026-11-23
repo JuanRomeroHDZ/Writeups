@@ -27,7 +27,7 @@ Para saber que puertos se encuentran disponibles, utilizaremos la herramienta de
 ```bash
 rustscan -a [TARGET]
 ```
->[!INFO] Resultado obtenido
+> **Información** — Resultado obtenido
 >```bash
 >PORT   STATE SERVICE REASON
 22/tcp open  ssh     syn-ack
@@ -39,7 +39,7 @@ Con esta información podemos utilizar ***curl*** o ***dig*** para obtener más 
 ```bash
 curl [TARGET] | grep http
 ```
->[!INFO] Resultado obtenido
+> **Información** — Resultado obtenido
 >```bash
 ><p>The document has moved <a href="http://searcher.htb/">here</a>.</p>
 >```
@@ -55,7 +55,7 @@ Con la ***IP*** apuntando al ***DNS***, podemos volver a utilizar ***curl*** y v
 ```bash
 curl -s -X GET searcher.htb -w "%{http_code}" -o /dev/null
 ```
->[!INFO] Resultado obtenido
+> **Información** — Resultado obtenido
 >```bash
 >└──╼ $curl -s -X GET searcher.htb -w "%{http_code}" -o /dev/null
 >200
@@ -66,7 +66,7 @@ Con esto sabemos que ahora podemos acceder a la página web de manera correcta. 
 ```bash
 gobuster dir -u http://searcher.htb/ -w /usr/share/seclists/Discovery/Web-Content/common.txt -t50 -e js,json,html,php,sh,py,htb
 ```
->[!INFO] Resultado obtenido
+> **Información** — Resultado obtenido
 >```bash
 >http://searcher.htb/search               (Status: 405) [Size: 153]
 http://searcher.htb/server-status        (Status: 403) [Size: 277]
@@ -75,5 +75,5 @@ Progress: 4751 / 4751 (100.00%)
 
 
 Como podemos observar, simplemente salen dos rutas, por lo cual pasaremos a ingresar a la ruta principal en ***http://searcher.htb***.
->[!INFO] Resultado obtenido
+> **Información** — Resultado obtenido
 >

