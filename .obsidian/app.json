@@ -1,1 +1,6 @@
-{}
+{
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": false,
+  "alwaysUpdateLinks": false
+}
