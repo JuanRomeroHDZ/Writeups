@@ -69,7 +69,7 @@ Con esto sabemos que ahora podemos acceder a la página web de manera correcta. 
 ```bash
 gobuster dir -u http://searcher.htb/ -w /usr/share/seclists/Discovery/Web-Content/common.txt -t50 -e js,json,html,php,sh,py,htb
 ```
-> **Información** — Resultado obtenido
+> [!NOTE]- **Información** — Resultado obtenido
 >```bash
 >http://searcher.htb/search               (Status: 405) [Size: 153]
 >http://searcher.htb/server-status        (Status: 403) [Size: 277]
