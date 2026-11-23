@@ -71,8 +71,8 @@ gobuster dir -u http://searcher.htb/ -w /usr/share/seclists/Discovery/Web-Conten
 > **Información** — Resultado obtenido
 >```bash
 >http://searcher.htb/search               (Status: 405) [Size: 153]
-http://searcher.htb/server-status        (Status: 403) [Size: 277]
-Progress: 4751 / 4751 (100.00%)
+>http://searcher.htb/server-status        (Status: 403) [Size: 277]
+>Progress: 4751 / 4751 (100.00%)
 >```
 
 
