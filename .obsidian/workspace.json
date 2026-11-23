@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Easy/TwoMillion/README.md",
+                "file": "Easy/Busqueda/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -190,9 +190,10 @@
   },
   "active": "c1716428b109c1f1",
   "lastOpenFiles": [
+    "Easy/Busqueda/Images/Pasted image 20261122231321.png",
+    "Easy/TwoMillion/README.md",
     "Easy/TwoMillion/Images",
     "README.md",
-    "Easy/TwoMillion/README.md",
     "Easy/TwoMillion"
   ]
 }

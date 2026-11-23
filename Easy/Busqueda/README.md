@@ -76,4 +76,6 @@ Progress: 4751 / 4751 (100.00%)
 
 Como podemos observar, simplemente salen dos rutas, por lo cual pasaremos a ingresar a la ruta principal en ***http://searcher.htb***.
 >[!INFO] Resultado obtenido
->
+>![[Pasted image 20261122231321.png]]
+
+
